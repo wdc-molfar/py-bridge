@@ -1,0 +1,24 @@
+{
+  "name": "@molfar/py-bridge",
+  "version": "1.0.0",
+  "description": "JS-Python Bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdc-molfar/py-bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdc-molfar/py-bridge/issues"
+  },
+  "homepage": "https://github.com/wdc-molfar/py-bridge#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "python-shell": "^3.0.1",
+    "uuid": "^8.3.2"
+  }
+}
