@@ -14,6 +14,7 @@ const run = async () => {
 
 	bridge
 		.use("echo", path.resolve(__dirname, "./python/echo.py"))
+		// .use("execute", path.resolve(__dirname, "./python/echo.py"))
 		.start()
 
 	let res = await bridge.echo({
